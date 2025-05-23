@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bikes",
+  "info": {
+    "singularName": "bike",
+    "pluralName": "bikes",
+    "displayName": "bike",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "price": {
+      "type": "integer"
+    },
+    "Images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

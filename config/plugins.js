@@ -4,4 +4,7 @@ module.exports = ({ env }) => ({
       jwtSecret: env('JWT_SECRET', 'some-default-secret-string'),
     },
   },
+  'content-type-builder': {
+    enabled: true,
+  },
 });
